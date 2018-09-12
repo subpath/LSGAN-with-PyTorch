@@ -1,0 +1,28 @@
+[owner]
+name = "Alexander Osipenko"
+github = "https://github.com/subpath"
+linkedin = "https://www.linkedin.com/in/aosipenko/"
+
+[hyperparameters]
+save_path = "results"
+image_size = 32
+image_channels = 1
+number_labels = 10
+nb_epoch = 200
+batch_size = 64
+model_complexity = 1
+minibatch_size = 64
+packing = 1
+learning_rate = 0.0002
+nb_discriminator_step = 1
+nb_generator_step = 2
+latent_input = 100
+label_latent_input = 100
+real_label_smoothing = "False"
+fake_label_smoothing = "False"
+dropout_prob = 0.0
+beta1 = 0.5
+beta2 = 0.999
+weights_mean = 0.0
+weights_std = 0.02
+nb_image_to_gen = 10
